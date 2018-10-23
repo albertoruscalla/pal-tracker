@@ -1,6 +1,6 @@
 applications:
-- name: pal1
-  path: build/libs/pal1.jar
+- name: pal-tracker
+  path: build/libs/pal-tracker.jar
   routes:
   - route: pal-tracker-alberto-ruscalla.apps.pikes.pal.pivotal.io
   env:
