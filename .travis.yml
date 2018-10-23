@@ -4,12 +4,12 @@ notifications:
   email: false
 env:
   - RELEASE_TAG="release-$TRAVIS_BUILD_NUMBER"
-  - CF_API_URL=https://api.sys.pikes.pal.pivotal.io
-  - GITHUB_OAUTH_TOKEN=9fae068346dc9d773c2453e990f997c38302e867
-  - CF_ORG=pikes
-  - CF_USERNAME=alberto.ruscalla@accenture.com
-  - CF_PASSWORD=56ejgjm7
-  - GITHUB_USERNAME=alberto.ruscalla@accenture.com
+  - CF_API_URL="https://api.sys.pikes.pal.pivotal.io"
+  - GITHUB_OAUTH_TOKEN="9fae068346dc9d773c2453e990f997c38302e867"
+  - CF_ORG="alberto-ruscalla"
+  - CF_USERNAME="alberto.ruscalla@accenture.com"
+  - CF_PASSWORD="56ejgjm7"
+  - GITHUB_USERNAME="alberto.ruscalla@accenture.com"
 if: tag IS blank
 
 
