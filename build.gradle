@@ -10,15 +10,12 @@ repositories {
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.1")
-    //compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '1.5.6.RELEASE'
-    //compile group: 'org.springframework.boot', name: 'spring-boot-starter-tomcat', version: '2.0.6.RELEASE'
-    //compile group: 'org.springframework', name: 'spring-web', version: '5.1.1.RELEASE'
-}
 
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+}
 
 bootRun.environment([
         "WELCOME_MESSAGE": "hello",
-        "PORT": "8080"
 ])
 
 test.environment([
